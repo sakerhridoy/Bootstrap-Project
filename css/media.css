@@ -1,0 +1,614 @@
+/*!==== X-SMALL Device ========*/
+
+@media (max-width: 575.98px) {
+  .navbar-toggler i {
+    color: #fff;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+    background: #667ac54d;
+  }
+  .nav-item {
+    padding-top: 20px;
+  }
+  .contact-btn {
+    margin-bottom: 20px;
+  }
+  .contact-btn a {
+    padding: 5px 10px;
+  }
+  #banner {
+    padding: 40px 0;
+  }
+  #banner h6 {
+    font-size: 14px;
+  }
+  #banner h1 {
+    font-size: 34px;
+    padding-right: 42px;
+  }
+  #banner p {
+    font-size: 16px;
+    padding-right: 12px;
+  }
+  #relevant {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .headline .h1 {
+    font-size: 24px;
+  }
+  .sec-headline h5 {
+    font-size: 16px;
+  }
+  .relevant-item {
+    margin-top: 24px;
+    padding: 65px;
+  }
+  .relevant-item {
+    margin-top: 24px;
+    padding: 20px;
+  }
+  .relevant-item h3 {
+    padding-top: 10px;
+  }
+  .relevant-item p {
+    line-height: 18px;
+    padding-top: 0px;
+  }
+  #compassion {
+    padding-bottom: 24px;
+  }
+  #compassion p {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  #compassion .btn a {
+    padding: 16px 32px;
+  }
+  #compassion a i {
+    color: black;
+  }
+  #compassion .sec-headline a {
+    font-size: 16px;
+  }
+  #benefits {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  #benefits .headline .h1 {
+    padding: 0;
+    line-height: 40px;
+    padding-bottom: 24px;
+  }
+  .benefits-text {
+    bottom: -84px;
+  }
+  .benefits-item {
+    margin-bottom: 24px;
+  }
+  .headline h4 {
+    font-size: 16px;
+  }
+  .headline h5 {
+    font-size: 16px;
+  }
+
+  #join {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  #join .headline .h1 {
+    font-size: 24px;
+    padding: 0;
+    line-height: 30px;
+  }
+  .join-text {
+    padding: 50px 0 50px 24px;
+  }
+  #join .btns a {
+    padding: 10px 20px;
+  }
+  #join .btns {
+    margin-top: 20px;
+  }
+  .join-text h4 {
+    padding-right: 170px;
+  }
+  .join-text h3 {
+    padding-right: 30px;
+  }
+  .join-text p {
+    font-size: 14px;
+  }
+  .serve-main h3 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  #blog {
+    padding: 60px 0;
+  }
+  #blog .headline .h1 {
+    padding-bottom: 24px;
+  }
+  .blog-item {
+    margin-bottom: 24px;
+    padding: 10px;
+  }
+  .blog-item h4 {
+    font-size: 16px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+  }
+  .blog-item .p-01 {
+    font-size: 14px;
+    padding-right: 0;
+    padding-bottom: 0px;
+  }
+  #blog {
+    padding: 24px 0;
+  }
+  .nav-item {
+    padding-top: 0px;
+  }
+  .links {
+    padding-left: 36px;
+  }
+  .t-02 {
+    padding-top: 16px;
+  }
+  .social i {
+    padding-right: 10px;
+  }
+  .connect {
+    padding-left: 24px;
+  }
+  .tabb h3{
+    font-size: 18px;
+  }
+  .tabb p{
+    font-size: 14px;
+  }
+  footer .subs h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  footer .subs form button {
+    padding: 21px 30px;
+  }
+}
+
+/*!==== SMALL Device ========*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-toggler i {
+    color: #fff;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+    background: #667ac54d;
+  }
+  .nav-item {
+    padding-top: 20px;
+  }
+  .contact-btn {
+    margin-bottom: 20px;
+  }
+  .contact-btn a {
+    padding: 15px 30px;
+  }
+  #banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+    padding-right: 62px;
+  }
+  #banner p {
+    font-size: 24px;
+    line-height: 44px;
+    padding-right: 5px;
+  }
+  #banner p::before {
+    top: 21px;
+    height: 2px;
+  }
+  #banner {
+    padding: 60px 0;
+  }
+  #relevant {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .relevant-item {
+    margin-top: 24px;
+    padding: 10px;
+  }
+  .relevant-item h3 {
+    font-size: 22px;
+  }
+  #compassion {
+    padding-bottom: 60px;
+  }
+  #compassion p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 0px;
+  }
+  #compassion .sec-headline p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  #compassion .sec-headline a {
+    font-size: 30px;
+  }
+  #compassion .btn a {
+    margin: 0 15px;
+    padding: 5px 10px;
+  }
+  #compassion .sec-headline a {
+    font-size: 24px;
+  }
+  #benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #benefits .headline .h1 {
+    padding-bottom: 60px;
+  }
+  .benefits-text {
+    bottom: -157px;
+  }
+  .join-text h4 {
+    font-size: 16px;
+  }
+  .benefits-text p {
+    font-size: 20px;
+  }
+  #join {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .join-text {
+    padding: 90px;
+  }
+  .join-text h6 {
+    font-size: 16px;
+  }
+  .join-text h4 {
+    font-size: 16px;
+  }
+  .join-text h3 {
+    padding-right: 65px;
+  }
+  .join-text p {
+    font-size: 20px;
+  }
+  .timeDate {
+    padding-bottom: 20px;
+  }
+  .timeDate span {
+    font-size: 20px;
+  }
+
+  .locate span {
+    font-size: 20px;
+  }
+  #join .btns {
+    margin-top: 60px;
+  }
+  .serve-main h3 {
+    font-size: 44px;
+    line-height: 54px;
+    padding-right: 0;
+  }
+  .serve-main p {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+  #blog {
+    padding: 60px 0;
+  }
+  #blog .headline .h1 {
+    padding-bottom: 24px;
+  }
+  .blog-item {
+    margin-bottom: 24px;
+  }
+  footer .nav-item {
+    padding-top: 0px;
+  }
+  footer .subs h3 {
+    font-size: 36px;
+  }
+}
+
+/*!==== MD Device ========*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-nav .nav-link {
+    padding: 0 15px !important;
+  }
+  .contact-btn a {
+    margin-left: 24px;
+    padding: 16px 32px;
+  }
+  #banner {
+    padding: 60px 0;
+  }
+  #banner h1 {
+    font-size: 56px;
+    padding-right: 0px;
+  }
+  #relevant {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .relevant-item {
+    margin-top: 24px;
+    padding: 10px;
+  }
+  #compassion .btn a {
+    margin: 0px 20px;
+    padding: 16px 32px;
+  }
+  #compassion p {
+    padding-bottom: 0px;
+  }
+  #compassion .sec-headline p {
+    font-size: 16px;
+    padding: 0px 64px;
+  }
+  #compassion .sec-headline a {
+    font-size: 16px;
+  }
+  #compassion {
+    padding-bottom: 60px;
+  }
+  #benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #benefits .headline .h1 {
+    padding-bottom: 24px;
+  }
+  #benefits .p-4 {
+    padding: 10px !important;
+  }
+  .benefits-text h4 {
+    font-size: 16px;
+  }
+  .benefits-text {
+    bottom: -140px;
+  }
+  #join {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .join-text {
+    padding: 11px 18px;
+  }
+  .join-text h6 {
+    font-size: 16px;
+  }
+  .join-text h3 {
+    font-size: 16px;
+    padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .join-text h4 {
+    font-size: 14px;
+  }
+  .join-text p {
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .date {
+    top: 0px;
+    right: 10px;
+  }
+  .date h5 {
+    font-size: 18px;
+  }
+  .timeDate {
+    padding-bottom: 20px;
+  }
+  .timeDate span {
+    font-size: 20px;
+  }
+
+  .locate span {
+    font-size: 20px;
+  }
+  .info span {
+    font-size: 14px;
+  }
+  .register {
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+  .register a {
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+  #join .btns {
+    margin-top: 60px;
+  }
+  .serve-main h3 {
+    font-size: 44px;
+    line-height: 54px;
+    padding-right: 112px;
+  }
+  .serve-main p {
+    font-size: 20px;
+    padding-right: 40px;
+  }
+  #blog {
+    padding: 60px 0;
+  }
+  #blog .headline .h1 {
+    padding-bottom: 24px;
+  }
+  .blog-item {
+    padding: 10px 5px;
+  }
+  .blog-item h4 {
+    font-size: 14px;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .blog-item .p-01 {
+    font-size: 14px;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  .blog-item .p-02 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 0;
+  }
+  .blog-item .p-03 {
+    font-size: 14px;
+  }
+  footer .nav-item {
+    padding-top: 0px;
+  }
+}
+
+/*!==== LG Device ========*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .relevant-item {
+    padding: 50px;
+  }
+  #banner h1 {
+    font-size: 44px;
+  }
+  #banner p {
+    padding-right: 24px;
+  }
+  #compassion p {
+    padding-bottom: 0px;
+  }
+  #compassion .btn a {
+    padding: 20px 40px;
+    margin: 0 50px;
+  }
+  #compassion .sec-headline a {
+    font-size: 16px;
+  }
+  #benefits .headline .h1 {
+    padding: 0;
+  }
+  .benefits-text {
+    bottom: -132px;
+  }
+  .benefits-text h4 {
+    font-size: 16px;
+  }
+  #benefits .headline .h1 {
+    padding: 0 0 24px;
+  }
+  #join .headline .h1 {
+    padding: 0;
+  }
+
+  .join-text {
+    padding: 20px 0 0px 20px;
+  }
+  .join-text h3 {
+    padding-right: 70px;
+  }
+  .register {
+    padding-top: 31px;
+  }
+  .register a {
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  .date {
+    top: 0px;
+    right: 15px;
+  }
+  .serve-main h3 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #blog {
+    padding: 60px 0;
+  }
+  .blog-item h4 {
+    font-size: 16px;
+  }
+  .blog-item .p-01 {
+    padding-bottom: 10px;
+  }
+  footer .subs form button {
+    padding: 21px 44px;
+  }
+}
+
+/*!==== X-LG Device ========*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  #compassion .btn a {
+    padding: 24px 64px;
+    margin: 0 50px;
+  }
+  #compassion .sec-headline a {
+    font-size: 16px;
+  }
+  .join-text {
+    padding: 50px 0 40px 40px;
+  }
+  .join-text h3 {
+    padding-right: 60px;
+  }
+}
+/*!==== XX-LG Device ========*/
+@media (min-width: 1400px) {
+  #banner h1 {
+    font-size: 64px;
+  }
+  #banner p {
+    font-size: 20px;
+  }
+  #compassion p {
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+  #compassion .btn a {
+    padding: 24px 64px;
+    margin: 0 50px;
+  }
+  #compassion .sec-headline p {
+    font-size: 18px;
+  }
+  #compassion .sec-headline a {
+    font-size: 20px;
+  }
+  #benefits .headline .h1 {
+    padding: 0px 70px;
+  }
+  .join-text {
+    padding: 70px 90px;
+  }
+  #join .headline .h1 {
+    padding: 0 90px;
+  }
+  .serve-main h3 {
+    font-size: 56px;
+  }
+  .serve-main p {
+    font-size: 20px;
+  }
+}

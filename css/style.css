@@ -1,0 +1,535 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #161722;
+}
+a {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #1c1d28;
+}
+ul,
+li {
+  list-style-type: none;
+}
+::selection {
+  background-color: #ffcc00;
+  color: #000000;
+}
+/* *----------------Navbar CSS-------------- */
+nav {
+  background-color: #0d0d0d;
+}
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  padding: 0 24px !important;
+}
+.navbar-nav {
+  margin-left: 88px;
+}
+.navbar {
+  padding: 18px 0;
+}
+.contact-btn a {
+  background-color: #ffd2a4;
+  padding: 20px 48px;
+  border-radius: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #1c1d28;
+  line-height: 16px;
+  font-weight: 400px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* *----------------Slider CSS-------------- */
+#carouselExampleCaptions .carousel-inner .carousel-item img {
+  opacity: 1;
+}
+/* *----------------Banner CSS-------------- */
+#banner {
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 128px 0;
+}
+#banner h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+#banner h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+#banner a {
+  background-color: #ffd2a4;
+  border-radius: 12px;
+}
+#banner p {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 88px;
+  padding-left: 30px;
+  text-transform: none;
+  padding-right: 128px;
+}
+#banner p::before {
+  position: absolute;
+  content: '';
+  top: 10px;
+  left: 0;
+  background-color: #ffd2a4;
+  width: 18px;
+  height: 1px;
+}
+
+/* *----------------Relevant CSS-------------- */
+#relevant {
+  padding-top: 128px;
+  padding-bottom: 122px;
+}
+.headline h6 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.headline .h1 {
+  font-size: 36px;
+  line-height: 64px;
+  font-weight: 700;
+}
+.relevant-item {
+  margin-top: 64px;
+  padding: 80px;
+  background-color: #fff5eb;
+  border-bottom: 16px solid #ffd2a4;
+}
+.relevant-item i {
+  width: 48px;
+  height: 48px;
+  background-color: #ffd2a4;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 48px;
+}
+.relevant-item h3 {
+  padding-top: 24px;
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 700;
+}
+.relevant-item p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+/* *----------------Compassion CSS-------------- */
+#compassion {
+  padding-bottom: 109px;
+}
+#compassion p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 16px;
+  padding-bottom: 80px;
+}
+#compassion .btn a {
+  background-color: #ffd2a4;
+  padding: 24px 64px;
+  border-radius: 12px;
+}
+#compassion .sec-headline p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: none;
+  padding: 0 25px;
+}
+#compassion .sec-headline a {
+  text-transform: none;
+  margin-right: 6px;
+  font-size: 14px;
+  line-height: 16px;
+}
+#compassion .sec-headline a i {
+  list-style: 16px;
+  padding-left: 6px;
+}
+/* *----------------Benefits CSS-------------- */
+#benefits {
+  background-color: rgba(245, 242, 240, 0.72);
+  padding-top: 120px;
+  padding-bottom: 106px;
+}
+#benefits .headline .h1 {
+  padding: 0 32px;
+  line-height: 44px;
+  padding-bottom: 94px;
+}
+.benefits-item {
+  overflow: hidden;
+}
+.benefits-item::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35%;
+  content: '';
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0),
+    rgb(16, 15, 15)
+  );
+  transition: ease-in-out 0.3s;
+}
+.benefits-text {
+  left: 0;
+  bottom: -108px;
+  transition: ease-in-out 0.3s;
+}
+.benefits-item:hover .benefits-text {
+  bottom: 0;
+}
+.benefits-item:hover::before {
+  height: 75%;
+}
+.benefits-text h4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.benefits-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* *----------------Join CSS-------------- */
+#join {
+  padding-top: 152px;
+  padding-bottom: 128px;
+}
+.join-text {
+  background-color: #fff5eb;
+  padding: 60px 90px;
+}
+.join-text h4 {
+  font-size: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  color: #a54e2b;
+}
+.join-text h3 {
+  color: #161722;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-right: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.join-text p {
+  color: #161722;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-bottom: 10px;
+}
+.info i {
+  color: #161722;
+}
+.info span {
+  color: #161722;
+  color: #161722;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.address i {
+  transform: rotate(45deg);
+}
+.register {
+  padding-top: 56px;
+  padding-bottom: 20px;
+}
+.register a {
+  background-color: #161722;
+  padding: 20px 48px;
+  border-radius: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffd2a4;
+  line-height: 16px;
+  font-weight: 400px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.date {
+  width: 32px;
+  top: 32px;
+  right: 32px;
+}
+.date h5 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #161722;
+}
+.date p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #161722;
+}
+.view {
+  padding-top: 48px;
+}
+.view a {
+  color: #161722;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+.view i {
+  font-size: 24px;
+  color: #161722;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #fff;
+  background-color: rgb(0, 128, 23);
+  border: none;
+}
+.btn {
+  border: none;
+  background-color: var(--bs-btn-bg);
+}
+/* *----------------Serve CSS-------------- */
+#serve {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+#serve::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 207, 160, 0.955),
+    rgba(205, 83, 35, 0)
+  );
+  opacity: 0.4;
+  z-index: -1;
+}
+.serve-main {
+  background-color: #fff;
+  border-bottom: 16px solid #ffd2a4;
+  margin: 128px 0;
+  padding: 72px 48px;
+}
+.serve-main h3 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+}
+.serve-main p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 16px;
+  padding-bottom: 40px;
+}
+.serve-main a {
+  background-color: #ffd2a4;
+  color: #1c1d28;
+  padding: 24px 64px;
+  border-radius: 12px;
+}
+.serve-right {
+  margin: 115px 48px;
+}
+/* *----------------Blog CSS-------------- */
+#blog {
+  padding: 128px 0;
+}
+#blog .headline .h1 {
+  padding-bottom: 64px;
+}
+.blog-item {
+  background-color: #fff5eb;
+  padding: 48px 32px 22px 32px;
+  border-bottom: 16px solid transparent;
+  transition: ease-in-out 0.3s;
+}
+.blog-item:hover {
+  border-bottom: 16px solid #ffd0a0;
+}
+.blog-item h6 {
+  color: #dc9853;
+  padding-bottom: 16px;
+}
+.blog-item h4 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 15px;
+  padding-bottom: 16px;
+}
+.blog-item .p-01 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 15px;
+  padding-bottom: 48px;
+}
+.blog-item .p-02 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 4px;
+}
+.blog-item .p-03 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.accordion {
+  --bs-accordion-color: #fff;
+  --bs-accordion-bg: teal;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-border-color: rgba(4, 109, 104, 0.742);
+}
+.accordion-button {
+  align-items: center;
+  text-align: center;
+  background-color: #c7c1c1;
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgb(14, 57, 86);
+  color: #fff;
+  text-decoration: underline;
+}
+.accordion-header .accordion-button {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* ----CARD----- */
+.card {
+  text-align: center;
+  border: none;
+  background-color: #b4965bd6;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: rgb(9, 132, 132);
+  border: none;
+}
+.btn-primary:hover {
+  background-color: rgba(152, 112, 32, 0.969);
+}
+.page-item .page-link {
+  color: #161722;
+}
+.page-item:hover .page-link {
+  background-color: cadetblue;
+  color: #fff;
+}
+.pagination {
+  background-color: #fff;
+  --bs-pagination-focus-box-shadow: none;
+}
+.tabb {
+  background-color: #c7c1c168;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.tabb .nav-link {
+  color: #161722;
+  text-align: center;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: teal;
+}
+/* *----------------Footer CSS-------------- */
+footer {
+  background-color: #161722;
+  padding: 64px 0;
+}
+footer .copyrights p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer .copyrights a {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer .links a {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer .connect h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .links h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .connect i {
+  color: #ffd0a0;
+}
+footer .subs h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  padding-bottom: 32px;
+}
+footer .subs form input {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 12px;
+}
+footer .subs form button {
+  background-color: #ffd2a4;
+  color: #161722;
+  padding: 21px 64px;
+  border-radius: 12px;
+  top: 0;
+  right: 0;
+  border: none;
+}
+footer .subs form input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+}
