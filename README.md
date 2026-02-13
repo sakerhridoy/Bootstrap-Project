@@ -1,4 +1,4 @@
-using html css and bootstrap , responsive for all device
+Using html css and bootstrap , responsive for all device
 
 live demo:
 https://bootstrap-project-lime.vercel.app/ 
